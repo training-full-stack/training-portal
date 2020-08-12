@@ -1,0 +1,59 @@
+.header{
+    top:0px;
+    left:0px;
+    right:0px; 
+    background-color:black; 
+    color:white;
+    height:2.5rem;
+    padding:.5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid gray; */
+    border-radius: .5rem;
+    margin: .8rem;
+    padding: .5rem;
+    background-color: aliceblue;
+}
+
+.flex-row:hover{
+    background-color: blanchedalmond;
+    font-weight: 500;
+}
+
+.flex-item{
+    flex-basis: 19%;
+    flex-grow: 1;
+}
+
+button{
+    background-color: navy;
+    border: 0px;
+    outline: none;
+    color: white;
+    padding: .5rem;
+    border-radius: .3rem
+}
+
+button:active{
+    background-color: blue;
+}
+
+button:hover{
+    color: aquamarine;
+    background-color: aquamarine;
+    color: navy;
+    cursor: pointer;
+}
+
+.text-sm{
+    font-size: .7rem;
+    font-weight: 300;
+    color: gray;
+}
